@@ -4,7 +4,7 @@
 
 A patient portal MVP built to demonstrate the security architecture behind medical-data platforms: row-level security, least-privilege service roles, append-only audit logging, LLM-powered PDF ingestion with human-in-the-loop review, and per-object private storage.
 
-**[Live demo →](#)** (add URL after deploy)
+**[Live demo →](https://patient-portal-demo-five.vercel.app/)
 
 ## Demo accounts
 
