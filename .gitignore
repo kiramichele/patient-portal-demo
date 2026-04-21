@@ -1,0 +1,44 @@
+@"
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.pem
+.vercel
+"@ | Out-File -Encoding utf8 .gitignore
+# TypeScript build cache
+*.tsbuildinfo
+
+# Claude Code
+.claude/
+
