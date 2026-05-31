@@ -1,6 +1,7 @@
 [build]
   base = "app"
-  command = "pnpm build"
+  # Ensure Corepack is enabled and a compatible pnpm is activated before installing
+  command = "corepack enable && corepack prepare pnpm@latest --activate && pnpm install --no-frozen-lockfile && pnpm build"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
