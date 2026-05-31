@@ -1,10 +1,10 @@
 [build]
   base = "app"
-  # Ensure Corepack is enabled and a compatible pnpm is activated before installing
-  command = "corepack enable && corepack prepare pnpm@latest --activate && pnpm install --no-frozen-lockfile && pnpm build"
+  packageManager = "npm"
+  command = "npm install && npm run build"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
 [build.environment]
-  NODE_VERSION = "22.13.0"
+  NODE_VERSION = "20"
