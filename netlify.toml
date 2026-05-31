@@ -1,5 +1,6 @@
 [build]
   base = "app"
+  publish = ".netlify"
   packageManager = "npm"
   command = "npm install && npm run build"
 
